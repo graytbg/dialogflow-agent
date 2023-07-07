@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "human_agent",
+    "synonyms": [ "Agent", "Human", "Human Agent", "human_agent", "Live", "Live agent", "Live human", "Representative ", "Transferring" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,74 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Just a minute while I connect you to a ",
+      "auto": true
+    }, {
+      "text": "representative",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "transferring",
+      "parameterId": "key_information"
+    }, {
+      "text": " you now"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm "
+    }, {
+      "text": "transferring",
+      "parameterId": "key_information"
+    }, {
+      "text": " you to an "
+    }, {
+      "text": "agent",
+      "parameterId": "key_information"
+    }, {
+      "text": " now"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "transferring you to a "
+    }, {
+      "text": "representative",
+      "parameterId": "key_information"
+    }, {
+      "text": " now"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "transferring you to an "
+    }, {
+      "text": "agent",
+      "parameterId": "key_information"
+    }, {
+      "text": " now"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ok, I'm "
+    }, {
+      "text": "transferring",
+      "parameterId": "key_information"
+    }, {
+      "text": " you now"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

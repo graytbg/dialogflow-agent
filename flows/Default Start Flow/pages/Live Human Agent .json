@@ -1,0 +1,22 @@
+{
+  "name": "78d7ed7e-e454-494e-a91a-5c0ecd425b71",
+  "displayName": "Live Human Agent ",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Transferring to human." ]
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "phone_number": "$session.params.phonenumber"
+        }
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

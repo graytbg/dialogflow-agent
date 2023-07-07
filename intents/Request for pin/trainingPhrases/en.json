@@ -1,0 +1,58 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "please say or enter your secret ",
+      "auto": true
+    }, {
+      "text": "pin",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please say or enter your ",
+      "auto": true
+    }, {
+      "text": "pin",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is your ",
+      "auto": true
+    }, {
+      "text": "pin",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "secret ",
+      "auto": true
+    }, {
+      "text": "pin",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pin",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ae57f7cd-7b29-4712-850c-2e9b0a845467",
+  "displayName": "Transfer to live human",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@human_agent"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user transfers the call to a live representative",
+  "numTrainingPhrases": 6
+}

@@ -1,0 +1,11 @@
+{
+  "name": "e2d94607-d63d-4ec6-bd56-755130c8957d",
+  "displayName": "Request for last 4 of SSN",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to the last four numbers of a social security number",
+  "numTrainingPhrases": 5
+}

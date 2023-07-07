@@ -1,0 +1,11 @@
+{
+  "name": "7b00a3b9-49ef-4e17-a619-e94814192d5f",
+  "displayName": "Request phone number",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide a phone number",
+  "numTrainingPhrases": 5
+}

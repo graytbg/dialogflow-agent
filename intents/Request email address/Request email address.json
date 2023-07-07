@@ -1,0 +1,11 @@
+{
+  "name": "aec6af8c-0a4e-45fb-ac31-d8564bd219d1",
+  "displayName": "Request email address",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide an email address",
+  "numTrainingPhrases": 4
+}

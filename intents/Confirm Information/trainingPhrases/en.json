@@ -1,0 +1,45 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I heard 1234, if correct, plase press 1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "you said ",
+      "auto": true
+    }, {
+      "text": "1299",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": ", correct?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "you said ",
+      "auto": true
+    }, {
+      "text": "1234",
+      "parameterId": "number",
+      "auto": true
+    }, {
+      "text": ", is that correct?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "That's 1234, is that right?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

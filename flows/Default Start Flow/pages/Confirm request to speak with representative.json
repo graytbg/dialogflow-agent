@@ -1,0 +1,96 @@
+{
+  "name": "5c99010f-99dc-44cb-9153-f5d374f714fe",
+  "displayName": "Confirm request to speak with representative",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirm request ",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yes", "Yes, Agent", "Yes, I'd like to speak with a live agent please" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4dfff1f3-dfb0-4371-8b37-7df1abfcb6b8"
+  }, {
+    "intent": "Transfer to live human",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Live Human Agent ",
+    "name": "7443590d-1cb7-437e-8a5a-08731c451823"
+  }, {
+    "intent": "Understand reason for call",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "69fe5444-1369-418a-95f1-5bb12b68158b"
+  }, {
+    "intent": " Request account number",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "a657a557-4284-4628-b71a-66ea2bb405c1"
+  }, {
+    "intent": "Request email address",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "b086c5e6-1934-4744-80dc-5dcb816f7b2b"
+  }, {
+    "intent": "Request for last 4 of SSN",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "4e37ec41-119d-4963-9555-c70d31f8c4ab"
+  }, {
+    "intent": "Request for name",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "129fe63f-de79-408f-9ba0-94aa2472540b"
+  }, {
+    "intent": "Request phone number",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "729bc8ba-3c42-4392-8c32-b76bc9f09b3f"
+  }, {
+    "intent": "Request for pin",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "803101a7-5f49-4f2b-ba88-cbfca23ee564"
+  }, {
+    "intent": "Request for zip code",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "ac9f6919-ec48-4ecf-8584-ff68c3824693"
+  }, {
+    "intent": "Confirm Information",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yes" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "48fa05e2-28bb-43c4-a9cd-9c731075441f"
+  } ]
+}

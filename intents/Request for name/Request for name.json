@@ -1,0 +1,11 @@
+{
+  "name": "6d00b5c8-51a2-427a-abd6-6ea1a10c5b2a",
+  "displayName": "Request for name",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide a name",
+  "numTrainingPhrases": 5
+}

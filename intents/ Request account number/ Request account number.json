@@ -1,0 +1,11 @@
+{
+  "name": "731ffb0f-c86b-4597-bb47-7442a8180f1e",
+  "displayName": " Request account number",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide an account number.",
+  "numTrainingPhrases": 8
+}

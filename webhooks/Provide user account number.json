@@ -1,0 +1,10 @@
+{
+  "name": "c1de5728-7f8b-4c62-9e76-11a5d0651b6e",
+  "displayName": "Provide user account number",
+  "genericWebService": {
+    "uri": "https://api.ipify.org/?format=json"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

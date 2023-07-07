@@ -1,0 +1,11 @@
+{
+  "name": "913a5d07-7f80-4797-941f-0df7483c8af5",
+  "displayName": "Request for pin",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide a pin",
+  "numTrainingPhrases": 5
+}

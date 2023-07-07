@@ -1,0 +1,7 @@
+{
+  "name": "5e9a6093-059c-4de6-9f42-ad9a9d0113e1",
+  "displayName": "Confirm request ",
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks to confirm the requestion to talk with a representative.",
+  "numTrainingPhrases": 7
+}

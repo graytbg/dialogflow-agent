@@ -1,0 +1,11 @@
+{
+  "name": "71f58ee6-d37b-4f3e-a789-5d61b64392b6",
+  "displayName": "Request for zip code",
+  "parameters": [ {
+    "id": "key_information",
+    "entityType": "@key_information"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks the agent to provide a zip code",
+  "numTrainingPhrases": 7
+}

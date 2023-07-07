@@ -1,0 +1,31 @@
+{
+  "entities": [ {
+    "value": "phone_number",
+    "synonyms": [ "phone", "Phone number", "phone_number", "telephone", "telephone number ", "telephone_number" ],
+    "languageCode": "en"
+  }, {
+    "value": "zip_code",
+    "synonyms": [ "Postal Code", "zip code", "Zip code", "zip_code" ],
+    "languageCode": "en"
+  }, {
+    "value": "account_number",
+    "synonyms": [ "Account number", "account_number" ],
+    "languageCode": "en"
+  }, {
+    "value": "social_security_number",
+    "synonyms": [ "last four of your social security number", "last4_ssn", "social security number" ],
+    "languageCode": "en"
+  }, {
+    "value": "client_name",
+    "synonyms": [ "client_name", "display_name ", "full name", "name", "Name", "your name", "Your name" ],
+    "languageCode": "en"
+  }, {
+    "value": "pin",
+    "synonyms": [ "pin", "secret pin" ],
+    "languageCode": "en"
+  }, {
+    "value": "email_address",
+    "synonyms": [ "email", "email address" ],
+    "languageCode": "en"
+  } ]
+}

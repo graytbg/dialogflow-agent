@@ -1,0 +1,75 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "can you provde your ",
+      "auto": true
+    }, {
+      "text": "zip",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": " code",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "do you know your ",
+      "auto": true
+    }, {
+      "text": "zip code",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "So we can transfer you to the right department, please say or enter your "
+    }, {
+      "text": "zip code",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is your "
+    }, {
+      "text": "zip code",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please say or enter your "
+    }, {
+      "text": "zip code",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "zip code",
+      "parameterId": "key_information",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "zip",
+      "parameterId": "key_information"
+    }, {
+      "text": " code"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

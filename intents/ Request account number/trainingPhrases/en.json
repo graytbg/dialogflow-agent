@@ -1,0 +1,85 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Do you have your "
+    }, {
+      "text": "account number",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": " on hand?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's your ",
+      "auto": true
+    }, {
+      "text": "account number",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please provide me with your "
+    }, {
+      "text": "account number",
+      "parameterId": "key_information"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what is your "
+    }, {
+      "text": "account number",
+      "parameterId": "key_information"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please say or enter your "
+    }, {
+      "text": "account number",
+      "parameterId": "key_information"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "account_number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "account",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": " "
+    }, {
+      "text": "account number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "7dd72056-00a3-40f5-8ffd-482fe41d832e",
+  "displayName": "Confirm Information",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks us to confirm information we've provided to them.",
+  "numTrainingPhrases": 4
+}

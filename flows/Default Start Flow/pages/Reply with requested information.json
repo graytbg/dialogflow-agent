@@ -1,0 +1,175 @@
+{
+  "name": "d998118c-7f0c-4f88-bb0a-652d1b4373c3",
+  "displayName": "Reply with requested information",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.key_information = \"client_name\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy name is $session.params.display_name.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "1b0e1274-7d27-478b-9d6c-8f0809b7f5c8"
+  }, {
+    "condition": "$session.params.key_information = \"phone_number\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy phone number is \u003csay-as interpret-as=\"telephone\"\u003e$session.params.phone_number\u003c/say-as\u003e.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "44c46f2a-ffd3-42af-9da3-6b16637aaf82"
+  }, {
+    "condition": "$session.params.key_information = \"account_number\" AND $session.params.account_number != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy account number is \u003csay-as interpret-as=\"digits\"\u003e$session.params.account_number\u003c/say-as\u003e.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "4ad1656b-0818-47fd-9180-e88d1af8e706"
+  }, {
+    "condition": "$session.params.key_information = \"account_number\" AND $session.params.account_number = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nI'm sorry, I don't have that information right now.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "7701992a-946e-4a2f-9521-34c00ad38816"
+  }, {
+    "condition": "$session.params.key_information = \"zip_code\" AND $session.params.zip_code != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy zipcode is \u003csay-as interpret-as=\"digits\"\u003e$session.params.zip_code\u003c/say-as\u003e.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "0e87fcd1-36b7-4e76-ab2e-4c948c6536cd"
+  }, {
+    "condition": "$session.params.key_information = \"zip_code\" AND $session.params.zip_code = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nI'm sorry, I don't have that information right now.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "f0b98414-f60b-4d56-bf84-9bdbc7cbb8cd"
+  }, {
+    "condition": "$session.params.key_information = \"social_security_number\" AND $session.params.last4_ssn != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nThe last four of my social security numbers are \u003csay-as interpret-as=\"digits\"\u003e$session.params.last4_ssn\u003c/say-as\u003e.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "307cadf3-a180-475d-8dc5-ef9c5a8739bd"
+  }, {
+    "condition": "$session.params.key_information = \"social_security_number\" AND $session.params.last4_ssn = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nI'm sorry, I don't have that information right now.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "e0b0401a-d74a-4d73-bb97-11f29bece7bd"
+  }, {
+    "condition": "$session.params.key_information = \"human_agent\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirm request to speak with representative",
+    "name": "884ab5b1-3768-472e-8a02-e87637dd7305"
+  }, {
+    "condition": "$session.params.key_information = \"pin\" AND $session.params.pin != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy pin is \u003csay-as interpret-as=\"digits\"\u003e$session.params.pin\u003c/say-as\u003e.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "6c47a381-ce37-415d-afae-0f204c959052"
+  }, {
+    "condition": "$session.params.key_information = \"pin\" AND $session.params.pin = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eSorry, I don't know my pin\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "4ba969e2-d85e-4c92-8af7-e040a4b02432"
+  }, {
+    "condition": "$session.params.key_information = \"email_address\" AND $session.params.email != \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nMy email address is $session.params.email.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "81ff9bb4-4481-4e13-ada1-7b20d3d44c4c"
+  }, {
+    "condition": "$session.params.key_information = \"email_address\" AND $session.params.email = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003e\nI'm sorry, I don't have that information right now.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "15bff71b-3ec9-4a5a-abd6-ae308e0855c8"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Start Page",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry can you say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2dbb96fc-fc41-4c6e-a9d1-f1b9ddde3938"
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What is your "
+    }, {
+      "text": "email address",
+      "parameterId": "key_information"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please tell me your "
+    }, {
+      "text": "email address",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "email address",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "email",
+      "parameterId": "key_information"
+    }, {
+      "text": " address"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

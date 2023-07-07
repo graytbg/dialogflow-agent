@@ -1,0 +1,47 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "At the tone, please say or enter your "
+    }, {
+      "text": "phone number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is your "
+    }, {
+      "text": "phone number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "please say or enter your "
+    }, {
+      "text": "phone number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "telephone number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "phone",
+      "parameterId": "key_information",
+      "auto": true
+    }, {
+      "text": " number"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "d863625e-ab87-42ae-a4e2-f40829b207ef",
+  "displayName": "Understand reason for call",
+  "priority": 500000,
+  "description": "This intent triggers when the end user asks a question about why we are calling. ",
+  "numTrainingPhrases": 7
+}

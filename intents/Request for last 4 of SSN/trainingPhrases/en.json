@@ -1,0 +1,53 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "what is your "
+    }, {
+      "text": "social security number",
+      "parameterId": "key_information"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please enter the "
+    }, {
+      "text": "last four digits of your social security number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Now, what are the "
+    }, {
+      "text": "last four digits",
+      "parameterId": "key_information"
+    }, {
+      "text": " of your social "
+    }, {
+      "text": "security number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "social security number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "last four digits of your "
+    }, {
+      "text": "social security number",
+      "parameterId": "key_information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

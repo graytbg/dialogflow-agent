@@ -1,0 +1,192 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "audioEncoding": "LINEAR16",
+          "enableWordInfo": false,
+          "model": "latest_short",
+          "modelvariant": "USE_ENHANCED",
+          "sampleRateHertz": 16000,
+          "singleUtterance": false
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "df15fc8c-a7bb-4e78-ade4-259ce7fe1c3d"
+  }, {
+    "intent": "Understand reason for call",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Agent", "Representative", "Customer service agent", "I would like to speak with a live human" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirm request to speak with representative",
+    "name": "97316d75-9283-4f0d-8ef0-6801fb36e252"
+  }, {
+    "intent": "Confirm request ",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yes, I'd like to speak with a live agent please", "Yes" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cf3c9dcf-609c-4801-99df-66d411e73f0b"
+  }, {
+    "intent": "Transfer to live human",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Live Human Agent ",
+    "name": "bf21c8d4-618e-4354-8aa6-3b641ede20ad"
+  }, {
+    "intent": " Request account number",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "71d74933-de15-42b8-a443-fdff1cde1183"
+  }, {
+    "intent": "Request email address",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "b10ec184-f50c-4b9f-ba1d-92e350789cba"
+  }, {
+    "intent": "Request for last 4 of SSN",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "a6b1fb56-b733-41d4-b6b7-fef3321f8c69"
+  }, {
+    "intent": "Request for name",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "49f43c3a-58d0-4154-83a2-fa210d9bbf78"
+  }, {
+    "intent": "Request phone number",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "224771c3-06e4-49d2-b333-321c9032244f"
+  }, {
+    "intent": "Request for pin",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "c93faf63-d635-4686-b092-fd9923df5bee"
+  }, {
+    "intent": "Request for zip code",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reply with requested information",
+    "name": "a5227e85-f1df-49d2-a735-02daf5bb7db8"
+  }, {
+    "intent": "Confirm Information",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Yes" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1eda857f-8206-451c-859c-d55d896392f7"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "key_information",
+        "value": null
+      } ]
+    },
+    "name": "e653cf31-0ddf-47cb-b741-e4d55959fcec"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry, can you say that again?", "I didn't get that. Can you please repeat what you said?", "I missed that, can you please say that again?", "Please transfer me to a live agent", "Please transfer me to a representative" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "984ef04e-60a8-4997-a7c3-eaebe03afcea"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I missed what you said. Can you please repeat that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "I didn't get that. Can you please repeat that?", "Please transfer me to a live agent", "Please transfer me to a representative" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "223dd04a-c291-4892-ae7f-92c120d1615e"
+  }, {
+    "event": "START",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "audioEncoding": "LINEAR16",
+          "enableWordInfo": false,
+          "model": "latest_short",
+          "modelvariant": "USE_ENHANCED",
+          "sampleRateHertz": 16000,
+          "singleUtterance": false
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "phone_number",
+        "value": "$session.params.phone_number"
+      }, {
+        "parameter": "zip_code",
+        "value": "$session.params.zip_code"
+      }, {
+        "parameter": "account_number",
+        "value": "$session.params.account_number"
+      }, {
+        "parameter": "uid",
+        "value": "$session.params.uid"
+      }, {
+        "parameter": "ivr_number",
+        "value": "$session.params.ivr_number"
+      }, {
+        "parameter": "last4_ssn",
+        "value": "$session.params.last4_ssn"
+      }, {
+        "parameter": "email",
+        "value": "$session.params.email"
+      }, {
+        "parameter": "display_name",
+        "value": "$session.params.display_name"
+      }, {
+        "parameter": "pin",
+        "value": "$session.params.pin"
+      } ]
+    },
+    "name": "8ce00192-c8b0-4eff-a2d5-1eebc4a37935"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}
